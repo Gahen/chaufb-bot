@@ -1,0 +1,32 @@
+{
+  "name": "chaufb-bot",
+  "version": "0.0.1",
+  "description": "Bot to annouce your friends you are leaving FB for a better place",
+  "main": "index.js",
+  "scripts": {
+    "now": "tsc && now --public -e FB_EMAIL=@fb-email -e FB_PASS=@fb-pass",
+    "start": "node index"
+  },
+  "files": [
+	  "messages.js",
+	  "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gahen/chaufb-bot.git"
+  },
+  "keywords": [
+    "facebook",
+    "bot",
+    "libre"
+  ],
+  "author": "Gahen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gahen/chaufb-bot/issues"
+  },
+  "homepage": "https://github.com/Gahen/chaufb-bot#readme",
+  "dependencies": {
+    "facebook-chat-api": "^1.4.0"
+  }
+}
