@@ -21,27 +21,27 @@ git clone https://github.com/Gahen/chaufb-bot.git
 cd chaufb-bot
 ```
 
-###  Install now.sh
+### Install now.sh and Typescript compiler
 
 ```
-npm install -g now
+npm install -g now typescript
 ```
 
-###  Add your fb account credentials to now.sh secrets
+### Add your fb account credentials to now.sh secrets
 
 ```
 now secrets add fb-email "email@sarasa.com"
 now secrets add fb-pass "SuperSecurePassword"
 ```
 
-###  Copy and edit messages file (right now only in spanish =))
+### Copy and edit messages file (right now only in spanish =))
 
 ```
 cp messages.dev.ts messages.ts
 vim messages.ts # complete it with your public contact data
 ```
 
-###  Deploy 
+### Deploy 
 
 `npm run now`
 
