@@ -14,9 +14,18 @@ Dicho esto, no me hago cargo de cualquier cosa mala que pueda pasar y están tod
 
 ## How To
 
+### Download the code
+
+```
+git clone https://github.com/Gahen/chaufb-bot.git
+cd chaufb-bot
+```
+
 ###  Install now.sh
 
-`npm install -g now`
+```
+npm install -g now
+```
 
 ###  Add your fb account credentials to now.sh secrets
 
@@ -27,8 +36,10 @@ now secrets add fb-pass "SuperSecurePassword"
 
 ###  Copy and edit messages file (right now only in spanish =))
 
-`cp messages.dev.ts messages.ts`
-`vim messages.ts # complete it with your public contact data`
+```
+cp messages.dev.ts messages.ts
+vim messages.ts # complete it with your public contact data
+```
 
 ###  Deploy 
 
