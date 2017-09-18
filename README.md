@@ -67,3 +67,9 @@ Deployment Y6dwfGWOt8fvQy5bEFG2DxIo removed
 ## Troubleshooting
 
 You'll probably need to try a few times until facebook stops blocking your account
+
+# LICENSE
+
+GPL V3
+
+See [LICENSE](https://github.com/Gahen/chaufb-bot/blob/master/LICENSE)
