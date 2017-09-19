@@ -6,7 +6,7 @@ Un bot de facebook que se loguea con tu usuario y le avisa a cualquiera que te m
 
 ## ¿Es peligroso usarlo?
 
-Es muy probable que facebook bloquee el acceso de now.sh a tu cuenta y tu cuenta, en mi caso solo me mostraba una pantalla para que ponga "sí fui yo el que accedió" y nada más, pero revisar la configuración de seguridad de antemano no es una mala idea. Tampoco tener una sesión activa de fb cuando se está probando el bot.
+Es muy probable que facebook bloquee el acceso de now.sh a tu cuenta y tu cuenta, en mi caso solo me mostraba una pantalla para que ponga "sí fui yo el que accedió" y nada más, pero revisar la configuración de seguridad de antemano no es una mala idea. Tampoco está de más tener una sesión activa de fb cuando se está probando el bot.
 
 Lo armé configurado para usar now.sh, es necesario subir tus credenciales de fb como secreto ahí para que funcione pero mucha gente está usándolo para cosas serias, así que no debería haber problema.
 
