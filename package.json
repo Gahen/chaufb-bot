@@ -8,8 +8,8 @@
     "start": "node index"
   },
   "files": [
-	  "messages.js",
-	  "index.js"
+    "messages.js",
+    "index.js"
   ],
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Gahen/chaufb-bot#readme",
   "dependencies": {
+    "@types/node": "^8.0.29",
     "facebook-chat-api": "^1.4.0"
   }
 }

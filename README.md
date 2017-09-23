@@ -43,11 +43,34 @@ vim messages.ts # complete it with your public contact data
 
 ### Deploy 
 
-`npm run now`
+```
+npm run now
+```
 
 If you deploy just with `now` it would not get the credentials that you configured before, check `package.json` for more info.
 
 If you have any problem go to [Troubleshooting]
+
+### Keep it alive forever
+
+Check the instance name you were given
+
+```
+now ls
+
+> 1 deployment found under gahen@partidopirata.com.ar [1s]
+
+chaufb-bot (1 of 1 total)
+ url                                  inst #    state                 age
+ chaufb-bot-asdasad.now.sh              1    READY                  2m
+```
+
+Tell now to scale it to 1 minimum instance and 1 maximum instance
+
+```
+now scale chaufb-bot-asdasad.now.sh 1 1 # where chaufb-bot-asdasad.now.sh is the name you took from the previous step
+```
+
 
 ### Kill the bot
 
